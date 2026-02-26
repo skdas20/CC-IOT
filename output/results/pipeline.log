@@ -1,0 +1,37 @@
+2026-02-26 20:06:52,198 - __main__ - INFO - Found 7 video file(s)
+2026-02-26 20:06:52,198 - src.pipeline - INFO - ============================================================
+2026-02-26 20:06:52,198 - src.pipeline - INFO - Starting Drone Video Analysis Pipeline
+2026-02-26 20:06:52,198 - src.pipeline - INFO - ============================================================
+2026-02-26 20:06:52,198 - src.pipeline - INFO - 
+[Stage 1/4] Extracting stable frames from videos...
+2026-02-26 20:06:52,199 - video_processor - INFO - Found 7 video files
+2026-02-26 20:06:52,200 - video_processor - INFO - Extracting ~5 frames per video (target total: 35)
+2026-02-26 20:06:52,216 - video_processor - INFO - Video: REC_1771502744_0.mp4
+2026-02-26 20:06:52,217 - video_processor - INFO - Total frames: 2644, FPS: 20.0
+2026-02-26 20:06:56,385 - video_processor - INFO - Extracted 5 stable frames from REC_1771502744_0.mp4 (adaptive_skip=176)
+2026-02-26 20:06:56,432 - video_processor - INFO - Video: REC_1771761222_0.mp4
+2026-02-26 20:06:56,432 - video_processor - INFO - Total frames: 3069, FPS: 20.0
+2026-02-26 20:07:01,180 - video_processor - INFO - Extracted 5 stable frames from REC_1771761222_0.mp4 (adaptive_skip=204)
+2026-02-26 20:07:01,232 - video_processor - INFO - Video: REC_1771761400_0.mp4
+2026-02-26 20:07:01,233 - video_processor - INFO - Total frames: 1586, FPS: 20.0
+2026-02-26 20:07:03,884 - video_processor - INFO - Extracted 5 stable frames from REC_1771761400_0.mp4 (adaptive_skip=105)
+2026-02-26 20:07:03,937 - video_processor - INFO - Video: REC_1771761556_0.mp4
+2026-02-26 20:07:03,938 - video_processor - INFO - Total frames: 1754, FPS: 20.0
+2026-02-26 20:07:06,696 - video_processor - INFO - Extracted 5 stable frames from REC_1771761556_0.mp4 (adaptive_skip=116)
+2026-02-26 20:07:06,747 - video_processor - INFO - Video: REC_1772106739_0.mp4
+2026-02-26 20:07:06,748 - video_processor - INFO - Total frames: 2544, FPS: 20.0
+2026-02-26 20:07:10,662 - video_processor - INFO - Extracted 5 stable frames from REC_1772106739_0.mp4 (adaptive_skip=169)
+2026-02-26 20:07:10,723 - video_processor - INFO - Video: REC_1772106893_0.mp4
+2026-02-26 20:07:10,724 - video_processor - INFO - Total frames: 2637, FPS: 20.0
+2026-02-26 20:07:14,703 - video_processor - INFO - Extracted 5 stable frames from REC_1772106893_0.mp4 (adaptive_skip=175)
+2026-02-26 20:07:14,751 - video_processor - INFO - Video: REC_1772107032_0.mp4
+2026-02-26 20:07:14,751 - video_processor - INFO - Total frames: 2425, FPS: 20.0
+2026-02-26 20:07:18,547 - video_processor - INFO - Extracted 5 stable frames from REC_1772107032_0.mp4 (adaptive_skip=161)
+2026-02-26 20:07:18,624 - video_processor - INFO - Total frames extracted across all videos: 35
+2026-02-26 20:07:18,631 - src.pipeline - INFO - ✓ Extracted 35 frames
+2026-02-26 20:07:18,631 - src.pipeline - INFO - 
+[Stage 2/4] Enhancing frames with GAN model...
+2026-02-26 20:07:18,631 - gan_enhancer - INFO - Real-ESRGAN enhancement | device: cpu | scale: 4x
+2026-02-26 20:07:18,632 - gan_enhancer - INFO - Downloading Real-ESRGAN x4plus model (~67MB)...
+2026-02-26 20:07:20,303 - gan_enhancer - INFO - Model downloaded successfully to /workspaces/CC-IOT/models/RealESRGAN_x4plus.pth
+2026-02-26 20:07:20,554 - gan_enhancer - INFO - ✓ Real-ESRGAN model loaded successfully (RRDB x4plus)
