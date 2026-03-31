@@ -208,7 +208,7 @@ except Exception as e:
     print(f"✗ Video processor error: {e}")
 
 try:
-    from src.gan_enhancer import SimpleGANEnhancer
+    from src.gan_enhancer import RealESRGANEnhancer
     print("✓ GAN enhancer loaded")
 except Exception as e:
     print(f"✗ GAN enhancer error: {e}")

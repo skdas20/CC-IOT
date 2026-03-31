@@ -1,0 +1,1364 @@
+[
+  {
+    "file": "REC_1771502744_0_frame_000_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 31.79,
+      "brightness": 18.75,
+      "contrast": 19.39,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "red",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771502744_0_frame_000_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "dark",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771502744_0_frame_000_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 169.34,
+      "near_region_ratio": 0.552,
+      "mid_region_ratio": 0.317,
+      "far_region_ratio": 0.132
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771502744_0_frame_000_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771502744_0_frame_000_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771502744_0_frame_001_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 86.45,
+      "brightness": 60.04,
+      "contrast": 77.06,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771502744_0_frame_001_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771502744_0_frame_001_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 105.52,
+      "near_region_ratio": 0.146,
+      "mid_region_ratio": 0.492,
+      "far_region_ratio": 0.362
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771502744_0_frame_001_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771502744_0_frame_001_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771502744_0_frame_002_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 31.76,
+      "brightness": 30.8,
+      "contrast": 14.82,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "green",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771502744_0_frame_002_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "dark",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771502744_0_frame_002_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 108.4,
+      "near_region_ratio": 0.204,
+      "mid_region_ratio": 0.311,
+      "far_region_ratio": 0.485
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771502744_0_frame_002_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771502744_0_frame_002_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771502744_0_frame_003_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 81.14,
+      "brightness": 172.62,
+      "contrast": 91.57,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "red",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771502744_0_frame_003_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771502744_0_frame_003_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 100.61,
+      "near_region_ratio": 0.132,
+      "mid_region_ratio": 0.405,
+      "far_region_ratio": 0.463
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771502744_0_frame_003_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771502744_0_frame_003_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771502744_0_frame_004_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 169.04,
+      "brightness": 112.38,
+      "contrast": 68.87,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771502744_0_frame_004_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-center",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771502744_0_frame_004_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 91.51,
+      "near_region_ratio": 0.203,
+      "mid_region_ratio": 0.118,
+      "far_region_ratio": 0.679
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771502744_0_frame_004_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771502744_0_frame_004_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761222_0_frame_000_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 269.29,
+      "brightness": 117.04,
+      "contrast": 37.0,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761222_0_frame_000_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "visible",
+      "spatial_distribution": "mid-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761222_0_frame_000_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 98.17,
+      "near_region_ratio": 0.134,
+      "mid_region_ratio": 0.336,
+      "far_region_ratio": 0.53
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761222_0_frame_000_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761222_0_frame_000_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761222_0_frame_001_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 275.01,
+      "brightness": 111.88,
+      "contrast": 33.04,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761222_0_frame_001_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "bottom-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761222_0_frame_001_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 104.94,
+      "near_region_ratio": 0.18,
+      "mid_region_ratio": 0.4,
+      "far_region_ratio": 0.42
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761222_0_frame_001_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761222_0_frame_001_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761222_0_frame_002_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 104.91,
+      "brightness": 124.15,
+      "contrast": 56.34,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761222_0_frame_002_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "visible",
+      "spatial_distribution": "mid-center",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761222_0_frame_002_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 168.1,
+      "near_region_ratio": 0.6,
+      "mid_region_ratio": 0.284,
+      "far_region_ratio": 0.116
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761222_0_frame_002_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761222_0_frame_002_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761222_0_frame_003_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 19.3,
+      "brightness": 128.82,
+      "contrast": 45.29,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761222_0_frame_003_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "visible",
+      "spatial_distribution": "bottom-center",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761222_0_frame_003_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 79.47,
+      "near_region_ratio": 0.089,
+      "mid_region_ratio": 0.252,
+      "far_region_ratio": 0.659
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761222_0_frame_003_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761222_0_frame_003_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761222_0_frame_004_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 51.7,
+      "brightness": 123.81,
+      "contrast": 52.45,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761222_0_frame_004_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "visible",
+      "spatial_distribution": "bottom-center",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761222_0_frame_004_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 56.51,
+      "near_region_ratio": 0.081,
+      "mid_region_ratio": 0.176,
+      "far_region_ratio": 0.742
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761222_0_frame_004_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761222_0_frame_004_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761400_0_frame_000_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 189.91,
+      "brightness": 105.8,
+      "contrast": 54.12,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "red",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761400_0_frame_000_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-right",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761400_0_frame_000_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 82.61,
+      "near_region_ratio": 0.092,
+      "mid_region_ratio": 0.317,
+      "far_region_ratio": 0.591
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761400_0_frame_000_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761400_0_frame_000_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761400_0_frame_001_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 330.47,
+      "brightness": 118.95,
+      "contrast": 79.61,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761400_0_frame_001_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-right",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761400_0_frame_001_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 112.34,
+      "near_region_ratio": 0.329,
+      "mid_region_ratio": 0.202,
+      "far_region_ratio": 0.469
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761400_0_frame_001_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761400_0_frame_001_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761400_0_frame_002_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 259.68,
+      "brightness": 123.15,
+      "contrast": 72.89,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761400_0_frame_002_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-right",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761400_0_frame_002_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 100.89,
+      "near_region_ratio": 0.279,
+      "mid_region_ratio": 0.165,
+      "far_region_ratio": 0.557
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761400_0_frame_002_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761400_0_frame_002_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761400_0_frame_003_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 392.64,
+      "brightness": 122.04,
+      "contrast": 69.58,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761400_0_frame_003_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-center",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761400_0_frame_003_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 93.41,
+      "near_region_ratio": 0.214,
+      "mid_region_ratio": 0.235,
+      "far_region_ratio": 0.551
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761400_0_frame_003_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761400_0_frame_003_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761400_0_frame_004_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 173.35,
+      "brightness": 91.31,
+      "contrast": 47.06,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "yellow",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761400_0_frame_004_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-right",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761400_0_frame_004_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 137.43,
+      "near_region_ratio": 0.44,
+      "mid_region_ratio": 0.237,
+      "far_region_ratio": 0.323
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761400_0_frame_004_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761400_0_frame_004_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761556_0_frame_000_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 23.98,
+      "brightness": 131.51,
+      "contrast": 70.23,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761556_0_frame_000_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-right",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761556_0_frame_000_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 80.78,
+      "near_region_ratio": 0.079,
+      "mid_region_ratio": 0.361,
+      "far_region_ratio": 0.56
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761556_0_frame_000_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761556_0_frame_000_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761556_0_frame_001_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 176.29,
+      "brightness": 108.5,
+      "contrast": 54.13,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761556_0_frame_001_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-right",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761556_0_frame_001_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 131.0,
+      "near_region_ratio": 0.405,
+      "mid_region_ratio": 0.176,
+      "far_region_ratio": 0.419
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761556_0_frame_001_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761556_0_frame_001_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761556_0_frame_002_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 135.05,
+      "brightness": 150.3,
+      "contrast": 84.22,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "yellow",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761556_0_frame_002_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-right",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761556_0_frame_002_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 98.84,
+      "near_region_ratio": 0.223,
+      "mid_region_ratio": 0.283,
+      "far_region_ratio": 0.495
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761556_0_frame_002_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761556_0_frame_002_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761556_0_frame_003_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 173.61,
+      "brightness": 162.11,
+      "contrast": 83.12,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "red",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761556_0_frame_003_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-right",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761556_0_frame_003_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 85.39,
+      "near_region_ratio": 0.202,
+      "mid_region_ratio": 0.209,
+      "far_region_ratio": 0.59
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761556_0_frame_003_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761556_0_frame_003_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1771761556_0_frame_004_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 156.97,
+      "brightness": 168.67,
+      "contrast": 78.82,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "red",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1771761556_0_frame_004_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1771761556_0_frame_004_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 64.48,
+      "near_region_ratio": 0.074,
+      "mid_region_ratio": 0.247,
+      "far_region_ratio": 0.679
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761556_0_frame_004_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1771761556_0_frame_004_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772106739_0_frame_000_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 78.51,
+      "brightness": 47.27,
+      "contrast": 21.33,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "green",
+      "vegetation_density": "medium",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772106739_0_frame_000_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "dark",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-right",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772106739_0_frame_000_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 133.3,
+      "near_region_ratio": 0.358,
+      "mid_region_ratio": 0.346,
+      "far_region_ratio": 0.297
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106739_0_frame_000_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106739_0_frame_000_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772106739_0_frame_001_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 87.61,
+      "brightness": 116.74,
+      "contrast": 34.16,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "green",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772106739_0_frame_001_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "visible",
+      "spatial_distribution": "bottom-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772106739_0_frame_001_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 109.7,
+      "near_region_ratio": 0.231,
+      "mid_region_ratio": 0.322,
+      "far_region_ratio": 0.447
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106739_0_frame_001_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106739_0_frame_001_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772106739_0_frame_002_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 41.56,
+      "brightness": 105.73,
+      "contrast": 31.14,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "green",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772106739_0_frame_002_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "mid-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772106739_0_frame_002_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 76.75,
+      "near_region_ratio": 0.164,
+      "mid_region_ratio": 0.156,
+      "far_region_ratio": 0.681
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106739_0_frame_002_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106739_0_frame_002_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772106739_0_frame_003_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 103.54,
+      "brightness": 119.8,
+      "contrast": 31.78,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "green",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772106739_0_frame_003_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-center",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772106739_0_frame_003_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 119.32,
+      "near_region_ratio": 0.267,
+      "mid_region_ratio": 0.375,
+      "far_region_ratio": 0.358
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106739_0_frame_003_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106739_0_frame_003_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772106739_0_frame_004_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 135.2,
+      "brightness": 115.44,
+      "contrast": 36.24,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "green",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772106739_0_frame_004_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772106739_0_frame_004_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 117.56,
+      "near_region_ratio": 0.235,
+      "mid_region_ratio": 0.433,
+      "far_region_ratio": 0.332
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106739_0_frame_004_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106739_0_frame_004_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772106893_0_frame_000_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 377.56,
+      "brightness": 114.23,
+      "contrast": 93.85,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "red",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772106893_0_frame_000_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-center",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772106893_0_frame_000_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 83.5,
+      "near_region_ratio": 0.137,
+      "mid_region_ratio": 0.282,
+      "far_region_ratio": 0.581
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106893_0_frame_000_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106893_0_frame_000_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772106893_0_frame_001_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 134.88,
+      "brightness": 147.1,
+      "contrast": 97.77,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "red",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772106893_0_frame_001_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-left",
+      "detected_features": [
+        "cat"
+      ]
+    },
+    "detected_objects": [
+      {
+        "id": 0,
+        "class": "cat",
+        "confidence": 0.539,
+        "bbox": {
+          "x1": 847.04,
+          "y1": 308.54,
+          "x2": 887.81,
+          "y2": 335.34,
+          "width": 40.77,
+          "height": 26.8
+        }
+      }
+    ],
+    "depth_analysis": {
+      "image_name": "REC_1772106893_0_frame_001_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 58.13,
+      "near_region_ratio": 0.035,
+      "mid_region_ratio": 0.307,
+      "far_region_ratio": 0.659
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106893_0_frame_001_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106893_0_frame_001_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772106893_0_frame_002_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 237.61,
+      "brightness": 75.82,
+      "contrast": 72.26,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "green",
+      "vegetation_density": "medium",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772106893_0_frame_002_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772106893_0_frame_002_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 144.2,
+      "near_region_ratio": 0.434,
+      "mid_region_ratio": 0.377,
+      "far_region_ratio": 0.189
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106893_0_frame_002_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106893_0_frame_002_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772106893_0_frame_003_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 209.25,
+      "brightness": 132.17,
+      "contrast": 68.76,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "green",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772106893_0_frame_003_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772106893_0_frame_003_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 113.33,
+      "near_region_ratio": 0.287,
+      "mid_region_ratio": 0.302,
+      "far_region_ratio": 0.411
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106893_0_frame_003_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106893_0_frame_003_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772106893_0_frame_004_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 70.03,
+      "brightness": 144.46,
+      "contrast": 89.36,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "red",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "no",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772106893_0_frame_004_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772106893_0_frame_004_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 74.02,
+      "near_region_ratio": 0.121,
+      "mid_region_ratio": 0.181,
+      "far_region_ratio": 0.698
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106893_0_frame_004_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772106893_0_frame_004_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772107032_0_frame_000_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 373.97,
+      "brightness": 107.26,
+      "contrast": 88.37,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "red",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772107032_0_frame_000_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-left",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772107032_0_frame_000_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 71.92,
+      "near_region_ratio": 0.14,
+      "mid_region_ratio": 0.173,
+      "far_region_ratio": 0.687
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772107032_0_frame_000_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772107032_0_frame_000_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772107032_0_frame_001_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 354.81,
+      "brightness": 98.55,
+      "contrast": 96.3,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "green",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772107032_0_frame_001_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-center",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772107032_0_frame_001_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 122.02,
+      "near_region_ratio": 0.313,
+      "mid_region_ratio": 0.39,
+      "far_region_ratio": 0.297
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772107032_0_frame_001_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772107032_0_frame_001_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772107032_0_frame_002_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 121.41,
+      "brightness": 116.73,
+      "contrast": 46.3,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772107032_0_frame_002_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "clear",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-center",
+      "detected_features": [
+        "person"
+      ]
+    },
+    "detected_objects": [
+      {
+        "id": 0,
+        "class": "person",
+        "confidence": 0.617,
+        "bbox": {
+          "x1": 169.03,
+          "y1": 203.36,
+          "x2": 265.26,
+          "y2": 436.21,
+          "width": 96.23,
+          "height": 232.85
+        }
+      }
+    ],
+    "depth_analysis": {
+      "image_name": "REC_1772107032_0_frame_002_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 95.32,
+      "near_region_ratio": 0.174,
+      "mid_region_ratio": 0.335,
+      "far_region_ratio": 0.492
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772107032_0_frame_002_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772107032_0_frame_002_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772107032_0_frame_003_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 79.39,
+      "brightness": 117.9,
+      "contrast": 43.96,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772107032_0_frame_003_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "obscured",
+      "spatial_distribution": "top-right",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772107032_0_frame_003_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 128.17,
+      "near_region_ratio": 0.312,
+      "mid_region_ratio": 0.401,
+      "far_region_ratio": 0.287
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772107032_0_frame_003_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772107032_0_frame_003_enhanced_depth_color.png"
+    }
+  },
+  {
+    "file": "REC_1772107032_0_frame_004_enhanced.jpg",
+    "quality_metrics": {
+      "sharpness": 93.87,
+      "brightness": 101.92,
+      "contrast": 45.93,
+      "resolution": "1024x540"
+    },
+    "terrain_analysis": {
+      "color_dominance": "blue",
+      "vegetation_density": "low",
+      "water_presence": "no",
+      "built_structure_presence": "yes",
+      "brightness_level": "bright"
+    },
+    "location_description": {
+      "image_name": "REC_1772107032_0_frame_004_enhanced.jpg",
+      "dimensions": "1024x540",
+      "sky_presence": "cloudy",
+      "ground_coverage": "visible",
+      "spatial_distribution": "top-right",
+      "detected_features": []
+    },
+    "detected_objects": [],
+    "depth_analysis": {
+      "image_name": "REC_1772107032_0_frame_004_enhanced.jpg",
+      "min_depth_normalized": 0,
+      "max_depth_normalized": 255,
+      "mean_depth_normalized": 125.46,
+      "near_region_ratio": 0.31,
+      "mid_region_ratio": 0.365,
+      "far_region_ratio": 0.325
+    },
+    "depth_maps": {
+      "gray_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772107032_0_frame_004_enhanced_depth_gray.png",
+      "color_map_path": "D:\\CODES\\Current\\CCIOT\\output\\depth_maps\\REC_1772107032_0_frame_004_enhanced_depth_color.png"
+    }
+  }
+]

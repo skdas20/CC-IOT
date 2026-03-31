@@ -7,6 +7,8 @@ from tqdm import tqdm
 import logging
 import json
 
+import config
+
 logger = logging.getLogger(__name__)
 
 # COCO classes for object detection
@@ -33,15 +35,17 @@ COCO_CLASSES = {
 
 class ObjectDetector:
     """Detect objects in images using YOLOv8.
-    
-    Uses yolov8m (medium) model with high-resolution inference (1280px)
-    optimized for aerial/drone footage where objects appear small.
+
+    Uses yolov8m (medium) model optimized for aerial/drone footage.
+    Class filtering restricts detections to objects plausible at 50-60m height.
     """
-    
-    def __init__(self, confidence_threshold=0.15, nms_threshold=0.45, imgsz=1280):
+
+    def __init__(self, confidence_threshold=0.35, nms_threshold=0.45, imgsz=640,
+                 aerial_classes=None):
         self.confidence_threshold = confidence_threshold
         self.nms_threshold = nms_threshold
-        self.imgsz = imgsz  # High res inference for aerial/drone shots
+        self.imgsz = imgsz
+        self.aerial_classes = aerial_classes  # whitelist of COCO class IDs
         self.model = self._load_model()
     
     def _load_model(self):
@@ -76,9 +80,15 @@ class ObjectDetector:
             return {'error': 'Model not loaded', 'objects': []}
         
         try:
-            # Run detection with high resolution for aerial/drone footage
-            results = self.model(str(image_path), conf=self.confidence_threshold, 
-                               iou=self.nms_threshold, imgsz=self.imgsz, verbose=False)
+            # Run detection — restrict to aerial-plausible classes only
+            results = self.model(
+                str(image_path),
+                conf=self.confidence_threshold,
+                iou=self.nms_threshold,
+                imgsz=self.imgsz,
+                classes=self.aerial_classes,
+                verbose=False,
+            )
             
             detections = []
             
@@ -173,14 +183,19 @@ def analyze_detections(detections_list):
 def detect_and_analyze(image_paths):
     """
     Run full detection and analysis pipeline.
-    
+
     Args:
         image_paths: List of image file paths to analyze
-        
+
     Returns:
         Tuple of (detections_list, analysis_summary)
     """
-    detector = ObjectDetector()
+    detector = ObjectDetector(
+        confidence_threshold=config.CONFIDENCE_THRESHOLD,
+        nms_threshold=config.NMS_THRESHOLD,
+        imgsz=config.DETECTION_IMGSZ,
+        aerial_classes=config.AERIAL_CLASS_IDS,
+    )
     detections = detector.detect_batch(image_paths)
     analysis = analyze_detections(detections)
     

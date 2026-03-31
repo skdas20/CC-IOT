@@ -8,6 +8,7 @@ from datetime import datetime
 from video_processor import extract_frames_from_all_videos
 from gan_enhancer import enhance_all_frames
 from object_detector import detect_and_analyze
+from depth_estimator import estimate_depth_for_images
 from image_analyzer import ImageAnalyzer
 import config
 
@@ -40,7 +41,7 @@ class DroneDrone_Analysis_Pipeline:
         
         try:
             # Stage 1: Extract stable frames
-            logger.info("\n[Stage 1/4] Extracting stable frames from videos...")
+            logger.info("\n[Stage 1/5] Extracting stable frames from videos...")
             frames_metadata = self._stage_extract_frames()
             
             if not frames_metadata:
@@ -48,19 +49,23 @@ class DroneDrone_Analysis_Pipeline:
                 return self.results
             
             # Stage 2: Enhance frames with GAN
-            logger.info("\n[Stage 2/4] Enhancing frames with GAN model...")
+            logger.info("\n[Stage 2/5] Enhancing frames with GAN model...")
             enhanced_paths = self._stage_enhance_frames(frames_metadata)
             
             # Stage 3: Detect objects
-            logger.info("\n[Stage 3/4] Detecting objects in enhanced frames...")
+            logger.info("\n[Stage 3/5] Detecting objects in enhanced frames...")
             detections, detection_summary = self._stage_detect_objects(enhanced_paths)
             
-            # Stage 4: Analyze and generate report
-            logger.info("\n[Stage 4/4] Analyzing images and generating reports...")
-            final_report = self._stage_analyze_and_report(enhanced_paths, detections)
+            # Stage 4: Estimate depth
+            logger.info("\n[Stage 4/5] Estimating depth maps from enhanced frames...")
+            depth_reports = self._stage_estimate_depth(enhanced_paths)
+            
+            # Stage 5: Analyze and generate report
+            logger.info("\n[Stage 5/5] Analyzing images and generating reports...")
+            final_report = self._stage_analyze_and_report(enhanced_paths, detections, depth_reports)
             
             # Save complete results
-            self._save_results(final_report, detections)
+            self._save_results(final_report, detections, depth_reports)
             
             logger.info("\n" + "=" * 60)
             logger.info("Pipeline completed successfully!")
@@ -140,15 +145,50 @@ class DroneDrone_Analysis_Pipeline:
             self.results['stages']['object_detection'] = {'status': 'failed', 'error': str(e)}
             raise
     
-    def _stage_analyze_and_report(self, image_paths, detections):
-        """Stage 4: Analyze images and generate comprehensive reports."""
+    def _stage_estimate_depth(self, image_paths):
+        """Stage 4: Estimate depth maps for enhanced images."""
+        try:
+            depth_reports = estimate_depth_for_images(
+                image_paths,
+                config.DEPTH_MAPS_DIR,
+            )
+
+            successful = [report for report in depth_reports if 'error' not in report]
+            self.results['stages']['depth_estimation'] = {
+                'status': 'completed',
+                'total_depth_maps': len(successful),
+                'sample_depth_map': successful[0] if successful else {}
+            }
+
+            logger.info(f"Depth maps generated: {len(successful)}")
+            return depth_reports
+
+        except Exception as e:
+            logger.error(f"Depth estimation failed: {str(e)}")
+            self.results['stages']['depth_estimation'] = {'status': 'failed', 'error': str(e)}
+            raise
+
+    def _stage_analyze_and_report(self, image_paths, detections, depth_reports):
+        """Stage 5: Analyze images and generate comprehensive reports."""
         try:
             analyzer = ImageAnalyzer()
             detailed_reports = []
+            depth_by_image = {
+                report['image']: report
+                for report in depth_reports
+                if isinstance(report, dict) and 'image' in report and 'error' not in report
+            }
             
             for idx, image_path in enumerate(image_paths):
                 detection_data = detections[idx].get('objects', []) if idx < len(detections) else []
                 report = analyzer.generate_comprehensive_report(image_path, detection_data)
+                depth_report = depth_by_image.get(str(image_path))
+                if depth_report:
+                    report['depth_analysis'] = depth_report.get('summary', {})
+                    report['depth_maps'] = {
+                        'gray_map_path': depth_report.get('gray_map_path'),
+                        'color_map_path': depth_report.get('color_map_path'),
+                    }
                 detailed_reports.append(report)
             
             self.results['stages']['image_analysis'] = {
@@ -165,7 +205,7 @@ class DroneDrone_Analysis_Pipeline:
             self.results['stages']['image_analysis'] = {'status': 'failed', 'error': str(e)}
             raise
     
-    def _save_results(self, detailed_reports, detections):
+    def _save_results(self, detailed_reports, detections, depth_reports):
         """Save all results to JSON files."""
         # Save detailed analysis reports
         reports_path = config.RESULTS_DIR / 'detailed_analysis_reports.json'
@@ -178,6 +218,12 @@ class DroneDrone_Analysis_Pipeline:
         with open(detections_path, 'w') as f:
             json.dump(detections, f, indent=2)
         logger.info(f"Saved detections to {detections_path}")
+
+        # Save depth results
+        depth_path = config.RESULTS_DIR / 'depth_analysis.json'
+        with open(depth_path, 'w') as f:
+            json.dump(depth_reports, f, indent=2)
+        logger.info(f"Saved depth reports to {depth_path}")
         
         # Save pipeline summary
         summary_path = config.RESULTS_DIR / 'pipeline_summary.json'

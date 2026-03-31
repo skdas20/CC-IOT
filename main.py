@@ -6,7 +6,8 @@ This script demonstrates the IoT & Cloud Computing project that:
 1. Extracts stable frames from drone videos
 2. Enhances image quality using GAN model
 3. Performs object detection on enhanced images
-4. Analyzes terrain, location characteristics, and provides comprehensive reports
+4. Estimates monocular depth maps from enhanced images
+5. Analyzes terrain, location characteristics, and provides comprehensive reports
 """
 
 import sys

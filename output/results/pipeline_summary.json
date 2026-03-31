@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-03-31T00:20:43.056682",
+  "stages": {
+    "object_detection": {
+      "status": "completed",
+      "total_objects": 2,
+      "unique_classes": 2,
+      "summary": {
+        "cat": {
+          "count": 1,
+          "avg_confidence": 0.539
+        },
+        "person": {
+          "count": 1,
+          "avg_confidence": 0.617
+        }
+      }
+    },
+    "depth_estimation": {
+      "status": "completed",
+      "total_depth_maps": 35
+    },
+    "image_analysis": {
+      "status": "completed",
+      "total_reports": 35
+    }
+  }
+}

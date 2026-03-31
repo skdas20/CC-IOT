@@ -10,6 +10,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import os
 import requests
+import config
 
 logger = logging.getLogger(__name__)
 
@@ -251,7 +252,9 @@ class RealESRGANEnhancer:
                 h, w = image.shape[:2]
                 
                 # On CPU, limit input size to avoid very long processing
-                max_input_dim = 384 if self.device.type == 'cpu' else 1024
+                max_input_dim = (
+                    config.GAN_MAX_INPUT_DIM_CPU if self.device.type == 'cpu' else 1024
+                )
                 if max(h, w) > max_input_dim:
                     ratio = max_input_dim / max(h, w)
                     new_h, new_w = int(h * ratio), int(w * ratio)
@@ -307,7 +310,10 @@ class RealESRGANEnhancer:
                 
                 enhanced = self.enhance_image(image)
                 
-                filename = Path(image_path).stem.replace('_raw', '_enhanced') + '.jpg'
+                image_path = Path(image_path)
+                filename = (
+                    f"{image_path.parent.name}_{image_path.stem.replace('_raw', '_enhanced')}.jpg"
+                )
                 output_path = output_dir / filename
                 cv2.imwrite(str(output_path), enhanced, [cv2.IMWRITE_JPEG_QUALITY, 95])
                 
